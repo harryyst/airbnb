@@ -35,6 +35,7 @@ const HeaderCenter = memo((props) => {
         classNames="detail"
         timeout={250}
         unmountOnExit={true}
+        
      >
       <div className='search-detail'>
           <SearchTabs titles={titles} tabClick={setTabIndex}/>

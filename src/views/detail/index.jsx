@@ -1,8 +1,12 @@
 import React, { memo } from 'react'
+import DetailPicture from './c-cpns/detail-pictures'
+import { DetailWrapper } from './style'
 
 const Detail = memo(() => {
   return (
-    <div>Detail</div>
+    <DetailWrapper>
+      <DetailPicture/>
+    </DetailWrapper>
   )
 })
 
